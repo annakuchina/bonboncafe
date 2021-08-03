@@ -1,2 +1,2 @@
 # bonboncafe
-The website for my year 11 design &amp; technology minor project
+This is the website for my year 11 design &amp; technology minor project

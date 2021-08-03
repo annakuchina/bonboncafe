@@ -194,7 +194,7 @@ p {
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 20px;
   letter-spacing: 2px;
-    line-height: 0.8em;
+    line-height: 1.6em;
 /*   text-align: center; */
 }
 
@@ -541,7 +541,7 @@ color: #fc5c62;
   color: #ffffff;
   width: 100%;
   height: calc(100vh - 100px);
-  background-color: #9282D7;
+  background-color: #916da7;
   text-align: center;
   font-family: "Playfair Display", serif;
 }
@@ -560,7 +560,7 @@ color: #fc5c62;
   grid-column-gap: 30px;
   justify-content: center;
   height: calc(70vh - 110px);
-  background-color: #9996e6;
+  background-color: #9592C8;
 }
 
 .fafas {
@@ -578,7 +578,7 @@ color: #fc5c62;
     font-size: 70px;
   }
   
-  .heroimg {
+  .strawberryDesign {
    padding-top: 25vh;
   width: 550px;
   height: auto;
@@ -647,7 +647,7 @@ color: #fc5c62;
 
 @media screen and (min-width: 1000px) {
   
-  .heroimg {
+  .strawberryDesign {
     width: 550px;
   }
   .link-title {

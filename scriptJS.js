@@ -1,3 +1,6 @@
+const observer = lozad();
+observer.observe();
+
 $(function() {
   $("#toggle").click(function() {
     $(this).toggleClass("on");
@@ -13,7 +16,6 @@ $(function() {
 });
 
 $(document).ready(function() {
-  console.log("ready!");
   $("#menu a ili").on("click", function(e) {
     function toggleCheckbox() {
       let checkbox = $("#menu-checkbox")[0];

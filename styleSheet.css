@@ -83,8 +83,8 @@ nav #menu a li:hover {
   right: 45px;
     top: 25px;
   z-index: 999;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   cursor: pointer;
   float: right;
   transition: all 0.3s ease-out;
@@ -93,9 +93,9 @@ nav #menu a li:hover {
 }
 
 #toggle .span {
-  height: 7px;
+  height: 6px;
   background: #ffffff;
-  margin: 5px auto;
+  margin: 8px auto;
   backface-visibility: hidden;
 }
 
@@ -137,13 +137,12 @@ nav #menu a li:hover {
   padding-bottom: 10px;
   font-size: 50px;
   min-height: 50px;
-  font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease-out;
 }
 
 #resize #menu a li:hover {
-  background: #e1c1e0;
+  background: #fc5c62;
   transition: all 0.3s ease-out;
 }
 
@@ -214,28 +213,6 @@ p {
 /*         line-height: 80px; vert-center */
     }
 
-
-.link {
-  font-family: "Lato", sans-serif;
-  font-size: 18px;
-  letter-spacing: 0.02em;
-  color: #86d6d0;
-  line-height: 1.5em;
-}
-
-
-.arrow-down {
-  border: solid #80b8b5;
-  border-width: 0 5px 5px 0;
-  display: inline-block;
-  padding: 10px;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  margin-top: 30px;
-  display: inline-block;
-  border-radius: 3px;
-}
-
 .hero-box {
   background-attachment: fixed;
   background-position: center;
@@ -302,7 +279,7 @@ p {
 
 .hero {
     padding-top: 10px;
-    background-color: #FFCEE7;
+    background-color: #f9b3d6;
 }
 
 .otherHero {
@@ -357,7 +334,6 @@ hr {
     font-family: 'Nanum Gothic', sans-serif;
 }
 
-
 .cafetitletext {
     font-size: 20vw;
     margin-bottom: -10px;
@@ -395,14 +371,6 @@ hr {
 .languages {
   padding-top: 20px;
 }
-
-/* .bgColour {
-  background-color: #fff4ef;
-}
-
-.menuBgColour {
-  background-color: #ffeee5;
-} */
 
 .menuImg {
   padding-top: 52px;
@@ -442,19 +410,16 @@ hr {
 .poemPart1 {
   color: #ed9cc7;
   padding-top: 40px;
-  text-shadow: 2px 2px white;
 }
 
 .poemPart2 {
   color: #ab98e0;
   padding-top: 35px;
-  text-shadow: 2px 2px white;
 }
 
 .poemPart3 {
   color: #88cca2;
   padding-top: 35px;
-  text-shadow: 2px 2px white;
 }
 
 .aboutPageTitle {
@@ -509,6 +474,19 @@ color: #fc5c62;
   margin-left: 70px;
   margin-right: 70px;
   padding-bottom: 170px;
+}
+
+/* .fa, .fas {
+  font-weight: 900;
+} */
+
+.fafas {
+  margin: auto;
+  font-size: 45px;
+}
+
+.fab {
+  color: white;
 }
 
 

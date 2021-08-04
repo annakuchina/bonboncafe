@@ -41,7 +41,7 @@ nav #brand a li {
 }
 
 nav #brand a li:hover {
-  color: #e1c1e0;
+  color: #fc5c62;
 }
 
 nav #menu {
@@ -75,7 +75,7 @@ nav #menu a li {
 }
 
 nav #menu a li:hover {
-  background: #e1c1e0;
+  background: #fc5c62;
 }
 
 #toggle {
@@ -207,6 +207,8 @@ p {
         width: 100%;	
     }
 
+    
+
  #tagline {
         overflow: hidden;
 /*         line-height: 80px; vert-center */
@@ -336,7 +338,7 @@ p {
 }
 
 .otherCafeText {
-  font-size: 95px;
+  font-size: 75px;
 }
 
 hr {
@@ -394,17 +396,18 @@ hr {
   padding-top: 20px;
 }
 
-.bgColour {
+/* .bgColour {
   background-color: #fff4ef;
 }
 
 .menuBgColour {
   background-color: #ffeee5;
-}
+} */
 
 .menuImg {
   padding-top: 52px;
   padding-bottom: 170px;
+  max-width: 1100px;
     width: 90vw;
     height: auto;
     display: block;
@@ -412,49 +415,49 @@ hr {
     margin-right: auto;
 }
 
+.cardImg {
+  width: 60vw;
+  max-width: 1000px;
+  padding-bottom: 60px;
+  padding-top: 40px;
+}
+
+.bottomCard {
+  padding-bottom: 60px;
+}
+
 .menuCenter {
-  width: 100vw;
+  width: 90vw;
+  height: auto;
+  margin: auto;
+  max-width: 1100px;
 }
 
-.certifications {
-  padding-top: 35px;
-  letter-spacing: 1.5px;
-  font-size: 20px;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-a.certification:click {
-  color: #80b8b5;
-}
-
-.title {
-  padding-top: 15px;
-  padding-bottom: 10px;
-  color: #80b8b5;
-  font-family: "Playfair Display", serif;
-  font-size: 24px;
-  letter-spacing: 1px;
+.cardCenter {
+  width: 60vw;
+  margin: auto;
+  max-width: 1000px;
 }
 
 .poemPart1 {
   color: #ed9cc7;
   padding-top: 40px;
+  text-shadow: 2px 2px white;
 }
 
 .poemPart2 {
   color: #ab98e0;
   padding-top: 35px;
+  text-shadow: 2px 2px white;
 }
 
 .poemPart3 {
   color: #88cca2;
   padding-top: 35px;
+  text-shadow: 2px 2px white;
 }
 
 .aboutPageTitle {
-  color: #fcb999;
   font-style: italic;
   font-size: 25px;
   text-align: center;
@@ -468,11 +471,21 @@ a.certification:click {
 }
 
 .coverImg {
-  width: 400px;
+  width: 30vw;
+  max-width: 700px;
   height: auto;
   display: block;
   margin: auto;
   padding-top: 40px;
+}
+
+.adPoster {
+  width: 40vw;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: auto;
+  padding-top: 80px;
 }
 
 .maintitle {
@@ -492,132 +505,27 @@ color: #fc5c62;
     letter-spacing: 0.1em;
 }
 
-
 .contentwrap {
   margin-left: 70px;
   margin-right: 70px;
   padding-bottom: 170px;
 }
 
-/* portfolio */
-.work-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-}
-
-
-
-.link {
-  color: #86d6d0;
-  font-family: "Lato", sans-serif;
-  font-size: 20px;
-  letter-spacing: 1.5px;
-}
-
-.maincontent {
-  padding-bottom: 10px;
-  margin-bottom: 50px;
-  -webkit-transition: all .5s;
-  -moz-transition: all .5s;
-  transition: all .5s;
-}
-
-.maincontent:hover {
-  transform: scale(0.92);
-  -webkit-transition: all .5s;
-  -moz-transition: all .5s;
-  transition: all .5s;
-}
-
-.thumbnail {
-  margin-bottom: 20px;
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.caption {
-  margin-top: -25px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  background-color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-#languages {
-  font-size: 17px;
-  padding-top: 5px;
-}
-
-.portfolio {
-  background-color: #f4f4f4;
-  padding-bottom: 100px;
-}
-
-.portfoliotitle {
-  padding-top: 80px;
-}
-
-.column {
-  position: relative;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-
-.work-container {
-  flex-direction: column;
-  justify-content: center;
-  /*     max-width: 1000px; */
-  width: 70%;
-  margin-left: 15%;
-  margin-right: 15%;
-  text-align: center;
-  flex-wrap: wrap;
-}
-
-
 
 #footer {
   color: #ffffff;
   width: 100%;
-  height: calc(100vh - 100px);
-  background-color: #916da7;
+  height: 173px;
+  background-color: #fc6f73;
   text-align: center;
-  font-family: "Playfair Display", serif;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 .footertext {
   font-size: 20px;
-  height: calc(10vh - 110px);
-  margin-top: 13vh;
-  letter-spacing: 5px;
+    padding-top: 74px;
+    letter-spacing: 5px;
 }
-
-.fafagrid {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  margin: auto;
-  grid-column-gap: 30px;
-  justify-content: center;
-  height: calc(70vh - 110px);
-  background-color: #9592C8;
-}
-
-.fafas {
-  margin: auto;
-  font-size: 45px;
-}
-
-.fab {
-  color: white;
-}
-
 
 @media screen and (min-width: 660px) {
   .annatext {
@@ -664,30 +572,6 @@ color: #fc5c62;
     width: 60%;
   }
 
-  .fafagrid {
-    grid-column-gap: 50px;
-  }
-
-  .fafas {
-    font-size: 65px;
-  }
-
-  .title {
-    font-size: 26px;
-  }
-
-  a.certification {
-    font-size: 20px;
-  }
-  
-  a.certification:hover {
-    color: #e1c1e0;
-    -webkit-transition: color 0.25s;
-    -moz-transition: color 0.25s;
-    -o-transition: color 0.25s;
-    transition: color 0.25s;
-  }
-
 }
 
 
@@ -723,12 +607,6 @@ color: #fc5c62;
 .leftBorder {
   margin-left: -250px;
 }
-  
-
-  .certification {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
 
   .hero {
     padding-right: 250px;
@@ -741,39 +619,6 @@ color: #fc5c62;
     width: 30%;
     margin-top: -20px; 
   }
-
-  .work-container {
-    flex-direction: row;
-    justify-content: center;
-    /*     max-width: 1000px; */
-    width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    /*     margin-right: -15px;
-    margin-left: -15px; */
-    flex-wrap: wrap;
-  }
-
-  .thumbnail {
-    height: 19em;
-    display: block;
-    margin-bottom: 20px;
-    line-height: 1.42857143;
-    -webkit-transition: border .2s ease-in-out;
-    -o-transition: border .2s ease-in-out;
-    transition: border .2s ease-in-out;
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-
-  #languages {
-    padding-top: 0px;
-  }
-
   img {
     border: 0;
   }
@@ -782,27 +627,4 @@ color: #fc5c62;
     box-sizing: border-box;
   }
 
-  .thumbnail .caption {
-    padding: 9px;
-    color: #333;
-
-  }
-
-  .column {
-    position: relative;
-    padding-right: 15px;
-    padding-left: 15px;
-    width: 33.33333333%;
-  }
-
-  .project+.project {
-    margin-bottom: 40px;
-  }
-
 }
-
-  @media screen and (min-width: 1200px) {
-    .work-container {
-      width: 1000px;
-    }
-  }

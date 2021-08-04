@@ -198,7 +198,8 @@ p {
 }
 
 .fulljustify {
-    	text-align:justify;
+      text-align:justify;
+      font-size: 15px;
     }
     .fulljustify:after {
         content: "";
@@ -229,13 +230,13 @@ p {
 }
 
 .strawberryDesign {
-  width: 250px;
+  width: 300px;
   padding-top: 30vh;
 }
 
 .reverseStrawberryDesign {
-  padding-top: 37vh;
-    width: 550px;
+  padding-top: 35vh;
+    width: 300px;
     height: auto;
     display: block;
     margin-left: auto;
@@ -266,7 +267,8 @@ p {
 
 .logoimg {
     width: 65px;
-    margin-left: 40px;
+    margin-left: 45px;
+    padding-top: 5px;
 }
 
 .herobox {
@@ -293,11 +295,11 @@ p {
   height: 100vh;
   margin-left: auto;
     margin-right: auto;
-  width: 250px;
+  width: 300px;
 }
 
 .herotext {
-  top: 35vh;
+  top: 37vh;
   text-align: center;
   position: absolute;
   width: 100%;
@@ -305,8 +307,13 @@ p {
   font-family: 'Cookie', cursive;
 }
 
+hr {
+  visibility: hidden;
+}
+
+
 .otherHeroText {
-  top: 25vh;
+  top: 43vh;
   text-align: center;
   position: absolute;
   width: 100%;
@@ -315,22 +322,12 @@ p {
 }
 
 .otherCafeText {
-  font-size: 75px;
-}
-
-hr {
-  
-  margin-bottom: -5px;
-    height: 4px;
-    width: 30%;
-    margin-top: 10px;
-  background-color: white;
-  border: none;
+  font-size: 45px;
 }
 
 .cafetext {
   font-size: 35px;
-    margin-top: 10px;
+    margin-top: -10px;
     font-family: 'Nanum Gothic', sans-serif;
 }
 
@@ -344,20 +341,20 @@ hr {
 }
 
 .coffeeImg {
-    width: 450px;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 30px;
+  width: 300px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
 }
 
 .coffeeImg2 {
-    width: 450px;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  width: 300px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .abouttext {
@@ -373,21 +370,23 @@ hr {
 }
 
 .menuImg {
-  padding-top: 52px;
-  padding-bottom: 170px;
+  padding-top: 35px;
+  padding-bottom: 140px;
   max-width: 1100px;
-    width: 90vw;
+    width: 100vw;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+
+
 .cardImg {
-  width: 60vw;
-  max-width: 1000px;
-  padding-bottom: 60px;
-  padding-top: 40px;
+  width: 100vw;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  max-width: 1100px;
 }
 
 .bottomCard {
@@ -395,16 +394,23 @@ hr {
 }
 
 .menuCenter {
-  width: 90vw;
+  width: 100vw;
   height: auto;
   margin: auto;
   max-width: 1100px;
 }
 
 .cardCenter {
-  width: 60vw;
+  width: 100vw;
   margin: auto;
   max-width: 1000px;
+}
+
+.poem {
+  width: 300px;
+    display: block;
+    margin: auto;
+  padding-bottom: 50px;
 }
 
 .poemPart1 {
@@ -428,52 +434,48 @@ hr {
   text-align: center;
 }
 
-.poem {
-  width: 400px;
-    display: block;
-    margin: auto;
-  padding-bottom: 50px;
-}
-
 .coverImg {
-  width: 30vw;
+  width: 80vw;
   max-width: 700px;
   height: auto;
   display: block;
   margin: auto;
-  padding-top: 40px;
+  padding-top: 35px;
 }
 
 .adPoster {
-  width: 40vw;
+  width: 80vw;
   max-width: 800px;
   height: auto;
   display: block;
   margin: auto;
-  padding-top: 80px;
+  padding-top: 60px;
+  padding-bottom: 150px;
 }
 
 .maintitle {
 color: #fc5c62;
-    font-size: 120px;
+    font-size: 70px;
     font-family: 'Cookie', cursive;
     text-align: center;
     letter-spacing: 0.1em;
+    padding-top: 13px;
     padding-bottom: 40px;
 }
 
 .minititle {
-    color: #fc6f73;
-    font-size: 65px;
+  color: #fc6f73;
+    font-size: 45px;
     font-family: 'Cookie', cursive;
     text-align: center;
     letter-spacing: 0.1em;
+    line-height: 0.9;
+    padding-bottom: 0;
+    padding-top: 5px;
 }
 
 .contentwrap {
-  margin-left: 70px;
-  margin-right: 70px;
-  padding-bottom: 170px;
+  padding-bottom: 100px;
 }
 
 /* .fa, .fas {
@@ -500,14 +502,36 @@ color: #fc5c62;
 }
 
 .footertext {
-  font-size: 20px;
+  font-size: 15px;
     padding-top: 74px;
     letter-spacing: 5px;
 }
 
 @media screen and (min-width: 660px) {
-  .annatext {
-    font-size: 70px;
+  
+  .fulljustify {
+    font-size: 20px;
+  }
+
+  .poem {
+    width: 400px;
+  }
+
+  .maintitle {
+    color: #fc5c62;
+        font-size: 120px;
+        font-family: 'Cookie', cursive;
+        text-align: center;
+        letter-spacing: 0.1em;
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+
+    .herotext {
+      top: 35vh;
+    }
+  .otherHeroText {
+    top: 25vh;
   }
   
   .strawberryDesign {
@@ -519,11 +543,64 @@ color: #fc5c62;
   margin-left: auto;
   margin-right: auto;
   }
+
+  .reverseStrawberryDesign {
+    padding-top: 37vh;
+      width: 550px;
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .minititle {
+    font-size: 55px;
+    padding-top: 0;
+  }
+
+  .coverImg {
+    width: 70vw;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding-top: 40px;
+  }
+
+  .adPoster {
+    width: 70vw;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding-top: 80px;
+  }
+
+  .coffeeImg {
+    width: 450px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+  }
   
-  .logoimg {
-      width: 70px;
-    margin-left: 130px;
-    margin-top: 2px;
+  .coffeeImg2 {
+      width: 450px;
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .cardCenter {
+    width: 80vw;
+  }
+
+  .cardImg {
+    width: 80vw;
+    padding-bottom: 60px;
+    padding-top: 40px;
   }
   
   .center {
@@ -534,9 +611,19 @@ color: #fc5c62;
     font-size: 140px;
     margin-top: 5px;
   }
+
+  .cafetext {
+    font-size: 35px;
+      margin-top: 17px;
+      font-family: 'Nanum Gothic', sans-serif;
+  }
+
+  .otherCafeText {
+    font-size: 75px;
+  }
   
   .beforenav {
-     padding-top: 8px;
+     padding-top: 7px;
   }
 
   .contentwrap {
@@ -545,28 +632,49 @@ color: #fc5c62;
   }
 
   hr {
-    margin-top: 0px;
     margin-bottom: 0px;
-    width: 60%;
+    margin-top: -10px;
+      height: 4px;
+      width: 60%;
+    background-color: white;
+    border: none;
+    visibility: visible;
+  }
+
+  .footertext {
+    font-size: 20px;
+      padding-top: 74px;
+      letter-spacing: 5px;
   }
 
 }
 
 
 @media screen and (min-width: 1000px) {
-  
+
+  .logoimg {
+    margin-left: 130px;
+  }
+
   .strawberryDesign {
     width: 550px;
   }
   .link-title {
     font-size: 22px;
   }
+
+  .minititle {
+    font-size: 65px;
+    padding-bottom: 0;
+    padding-top: 10px;
+}
   
   .cafetitletext {
   font-size: 10vw;
 }
   
   .cafetext {
+    margin-top: 10px;
     font-size: 45px;
   }
 
@@ -603,6 +711,45 @@ color: #fc5c62;
 
   * {
     box-sizing: border-box;
+  }
+
+  .coverImg {
+    width: 40vw;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding-top: 40px;
+  }
+
+  .adPoster {
+    width: 40vw;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding-top: 80px;
+  }
+
+  .cardCenter {
+    width: 60vw;
+  }
+
+  .cardImg {
+    width: 60vw;
+    padding-bottom: 60px;
+    padding-top: 40px;
+  }
+
+  .menuImg {
+    padding-top: 52px;
+    padding-bottom: 170px;
+    max-width: 1100px;
+      width: 90vw;
+  }
+
+  .menuCenter {
+    width: 90vw;
   }
 
 }

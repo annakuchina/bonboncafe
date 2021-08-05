@@ -163,7 +163,6 @@ nav #menu a li:hover {
 #resize.active {
   visibility: visible;
   opacity: 0.99;
-  margin-top: 50px;
 }
 
 @media (max-width: 1000px) {

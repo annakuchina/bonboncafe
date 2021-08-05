@@ -3,6 +3,7 @@
 html {
   box-sizing: border-box;
   -webkit-tap-highlight-color: rgba(211, 255, 251, 0);
+  overflow-x: hidden;
 }
 
 *,

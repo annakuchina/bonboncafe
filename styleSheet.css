@@ -262,12 +262,13 @@ p {
 
 
 .beforenav {
-  padding-top: 13px;
+  padding-top: 8px;
 }
 
 .logoimg {
     width: 65px;
     margin-left: 45px;
+    padding-top: 5px;
 }
 
 .herobox {
@@ -621,10 +622,6 @@ color: #fc5c62;
     font-size: 75px;
   }
   
-  .beforenav {
-     padding-top: 8px;
-  }
-
   .contentwrap {
     margin-left: 130px;
     margin-right: 130px;
